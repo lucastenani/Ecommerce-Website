@@ -3,6 +3,7 @@
 :root {
   --title-color: #222;
   --text-color: #465b52;
+  --primay-color: #088178;
 }
 
 * {
@@ -89,7 +90,7 @@ p {
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: #088178;
+  color: var(--primay-color);
 }
 
 #navbar li a.active::after,
@@ -97,7 +98,7 @@ p {
   content: "";
   width: 30%;
   height: 2px;
-  background: #088178;
+  background: var(--primay-color);
   position: absolute;
   bottom: -4px;
   left: 20px;
@@ -122,13 +123,13 @@ p {
 }
 
 #hero h1 {
-  color: #088178;
+  color: var(--primay-color);
 }
 
 #hero button {
   background-image: url('img/button.png');
   background-color: transparent;
-  color: #088178;
+  color: var(--primay-color);
   border: 0;
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
@@ -162,6 +163,6 @@ p {
   padding: 9px 8px 6px 8px;
   line-height: 1;
   border-radius: 4px;
-  color: #088178;
+  color: var(--primay-color);
   background-color: #fddde4;
 }
