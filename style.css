@@ -3,7 +3,7 @@
 :root {
   --title-color: #222;
   --text-color: #465b52;
-  --primay-color: #088178;
+  --primary-color: #088178;
   --secondary-color: #cce7d0;
   --white: #fff;
 }
@@ -68,6 +68,18 @@ button.normal {
   transition: 0.2s;
 }
 
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: var(--white);
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid var(--white);
+  outline: none;
+  transition: 0.2s;
+}
+
 /* Header */
 
 #header {
@@ -105,7 +117,7 @@ button.normal {
 
 #navbar li a:hover,
 #navbar li a.active {
-  color: var(--primay-color);
+  color: var(--primary-color);
 }
 
 #navbar li a.active::after,
@@ -113,7 +125,7 @@ button.normal {
   content: "";
   width: 30%;
   height: 2px;
-  background: var(--primay-color);
+  background: var(--primary-color);
   position: absolute;
   bottom: -4px;
   left: 20px;
@@ -138,13 +150,13 @@ button.normal {
 }
 
 #hero h1 {
-  color: var(--primay-color);
+  color: var(--primary-color);
 }
 
 #hero button {
   background-image: url("img/button.png");
   background-color: transparent;
-  color: var(--primay-color);
+  color: var(--primary-color);
   border: 0;
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
@@ -186,7 +198,7 @@ button.normal {
   padding: 9px 8px 6px 8px;
   line-height: 1;
   border-radius: 4px;
-  color: var(--primay-color);
+  color: var(--primary-color);
   background-color: #fddde4;
 }
 
@@ -264,7 +276,7 @@ button.normal {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
-  color: var(--primay-color);
+  color: var(--primary-color);
 }
 
 .product1 .pro .cart {
@@ -274,7 +286,7 @@ button.normal {
   border-radius: 50px;
   background-color: #e8f6ea;
   font-weight: 500;
-  color: var(--primay-color);
+  color: var(--primary-color);
   border: 1px solid var(--secondary-color);
   position: absolute;
   bottom: 20px;
@@ -310,6 +322,53 @@ button.normal {
 }
 
 #banner button:hover {
-  background-color: var(--primay-color);
+  background-color: var(--primary-color);
   color: var(--white);
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("img/banner/b17.jpg");
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+  background-image: url("img/banner/b10.jpg");
+}
+
+#sm-banner h4 {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2 {
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
