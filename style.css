@@ -137,6 +137,10 @@ button.white {
   align-items: center;
 }
 
+#close {
+  display: none;
+}
+
 /* Home page */
 #hero {
   background-image: url("img/hero4.png");
@@ -539,8 +543,11 @@ footer .install .row img {
 /* Media Query */
 
 @media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px;
+  }
+
   #navbar {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -575,10 +582,55 @@ footer .install .row img {
   }
 
   #close {
+    display: initial;
     position: absolute;
     top: 30px;
     left: 30px;
     color: var(--title-color);
     font-size: 24px;
+  }
+
+  #lg-bag {
+    display: none;
+  }
+
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 55%;
+  }
+
+  #feature,
+  .product1 .pro-container {
+    justify-content: center;
+  }
+
+  #feature .fe-box {
+    margin: 15px;
+  }
+
+  .product1 .pro {
+    margin: 15px;
+  }
+
+  #banner {
+    height: 20vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  #banner3 {
+    padding: 0 40px;
+  }
+
+  #banner3 .banner-box {
+    width: 28%;
+  }
+
+  #newsletter .form {
+    width: 70%;
   }
 }
