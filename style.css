@@ -559,6 +559,24 @@ footer .install .row img {
   color: var(--white);
 }
 
+#pagination {
+  text-align: center;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: var(--white);
+  font-weight: 600;
+}
+
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 /* Media Query */
 
 @media (max-width: 799px) {
