@@ -616,6 +616,7 @@ footer .install .row img {
     color: #1a1a1a;
     font-size: 24px;
     padding-left: 20px;
+    cursor: pointer;
   }
 
   #close {
