@@ -34,3 +34,7 @@ if (MainImg) {
     MainImg.src = smallImg[3].src;
   };
 }
+
+function productPath() {
+  window.location.href = "sproduct.html";
+}
