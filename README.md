@@ -3,7 +3,7 @@
 ## Project description
 
 <p align="justify">
-  A project created to study and practice my skills from a basic front end project
+  A project created to study and practice my skills from a basic Front end project without using any framework, library, database or Back end. It's just a static   site
 </p>
 
 ## Prerequisites
