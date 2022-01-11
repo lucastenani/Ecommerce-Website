@@ -723,21 +723,31 @@ footer .install .row img {
   background-image: url("img/banner/b2.jpg");
 }
 
-#about-head {
+.about-body {
   display: flex;
   align-items: center;
 }
 
-#about-head img {
+.about-body img {
   width: 50%;
   height: auto;
+  border-radius: 20px;
 }
 
-#about-head div {
+.about-body div {
   padding-left: 40px;
 }
 
-#about-head marquee {
+#about-body-right div {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+.about-body div {
+  text-align: justify;
+}
+
+.about-body marquee {
   background-color: #ccc;
   width: 100%;
 }
@@ -945,17 +955,22 @@ footer .install .row img {
   }
 
   /* About Page */
-  #about-head {
+  .about-body {
     flex-direction: column;
   }
 
-  #about-head img {
+  .about-body img {
     width: 100%;
     margin-bottom: 20px;
   }
 
-  #about-head div {
+  .about-body div {
     padding-left: 0;
+  }
+
+  #about-body-right div {
+    padding-right: 0;
+    margin-bottom: 20px;
   }
 
   #about-app .video {
