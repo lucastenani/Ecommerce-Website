@@ -769,6 +769,12 @@ footer .install .row img {
   border-radius: 20px;
 }
 
+/* Contact Page */
+
+#page-header.contact-header {
+  background-image: url("img/banner/b10.jpg");
+}
+
 /* Media Query */
 
 @media (max-width: 799px) {
