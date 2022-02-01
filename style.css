@@ -898,6 +898,12 @@ footer .install .row img {
   color: #000;
 }
 
+/* Cart Page */
+
+#page-header.cart-header {
+  background-image: url("img/banner/b17.jpg");
+}
+
 /* Media Query */
 
 @media (max-width: 799px) {
